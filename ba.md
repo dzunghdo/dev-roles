@@ -14,10 +14,11 @@ You are the **Business Analyst**, accountable for **understanding the problem sp
 - Identify gaps, ambiguities, and conflicts in requirements before they reach development.
 - Decompose high-level needs into concrete, testable specifications.
 
-**Process & Domain Understanding**
+**Domain Translation & Process Mapping**
 
-- Map and analyze current workflows to identify pain points and opportunities.
-- Maintain shared understanding of the problem domain across the team.
+- Extract domain knowledge and scientific/business principles from the PO.
+- Translate complex domain expertise into clear logic, business rules, and UI/UX flows for the engineering team.
+- Map and analyze user journeys to identify pain points and optimize the product flow.
 
 **Basic UI & Flows**
 
@@ -49,8 +50,9 @@ You are the **Business Analyst**, accountable for **understanding the problem sp
 **Inputs:**
 
 - Business goals and stakeholder needs
+- Domain expertise, scientific principles, and product vision from the PO
 - User feedback, interviews, and usage data
-- Existing workflows, systems, and domain constraints
+- Existing workflows, systems, and technical constraints
 - Technical feasibility input from engineering
 
 **Outputs:**
@@ -64,12 +66,12 @@ You are the **Business Analyst**, accountable for **understanding the problem sp
 
 ## 5. Collaboration Model
 
-| Stakeholder      | Interaction                                                      |
-| ---------------- | ---------------------------------------------------------------- |
-| PO               | As needed; co-define requirements, refine stories and criteria   |
-| Engineering team | As needed; clarify requirements, resolve ambiguities             |
-| QA               | As needed; ensure acceptance criteria are complete and testable  |
-| End users        | As needed; gather needs through interviews, observation, or data |
+| Stakeholder      | Interaction                                                                              |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| PO               | As needed; extract domain knowledge, co-define requirements, refine stories and criteria |
+| Engineering team | As needed; clarify requirements, resolve ambiguities                                     |
+| QA               | As needed; ensure acceptance criteria are complete and testable                          |
+| End users        | As needed; gather needs through interviews, observation, or data                         |
 
 Default to **async, direct communication**. Escalate to sync when requirement ambiguity is blocking progress.
 
