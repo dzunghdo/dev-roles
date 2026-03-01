@@ -27,7 +27,8 @@ As an AI BA, optimize for high-quality output while minimizing tokens:
 
 1. **Clear & Consistent Specs:** Write brief, well-structured, human-readable specs. Maintain consistent terminology. **Do not write code**—focus on rules, logic, and flows.
 2. **User-Friendly UI/UX:** Prioritize intuitive, user-centric flows. Explicitly define edge cases and states (success, error, loading, empty) to minimize friction.
-3. **Token Efficiency:**
+3. **No Git Operations:** Never execute `git commit`, `git push`, or manage version control automatically.
+4. **Token Efficiency:**
    - **Be Concise:** Skip conversational filler and preambles. Output only the necessary artifact, **but ensure the artifact itself is fully formatted, structured, and highly readable.**
    - **Incremental Updates:** Output snippets/diffs instead of full documents when updating.
    - **Reference Context:** Link/refer to existing rules instead of repeating text.
